@@ -1,0 +1,85 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Colibri Connection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <img src="logo2.png" alt="Colibri Connection" class="brand-mark">
+      <div class="brand-text">
+        <h1>Colibri Connection</h1>
+        <p class="brand-sub">Study Spanish in Spain • Trusted partner schools</p>
+      </div>
+    </a>
+    <nav class="nav">
+         <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="steps.html">How It Works</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="contact.html" class="btn small">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="contact" class="section">
+    <div class="contact-card">
+      
+      <h3>Contact & Book Your Free Consult</h3>
+      <p>Talk to a specialist and start planning your Spanish course in Spain. Fast replies and personalized guidance.</p>
+
+      <div class="contact-actions">
+        <button class="btn primary" id="whatsappBtn2">Talk on WhatsApp</button>
+      </div>
+
+      <p class="small muted" style="margin-top:22px">
+        Or message us on Instagram: <strong>@colibri.connect</strong>
+      </p>
+
+    </div>
+  </section>
+</main>
+
+<a href="https://wa.me/4915227712596?text=Hello!%20I%20want%20to%20talk%20about%20studying%20Spanish%20in%20Spain." 
+   target="_blank" 
+   class="whatsapp-float">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+  <span>Talk on WhatsApp</span>
+</a>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <strong>Colibri Connection</strong>
+      <p class="muted small">Trusted Spanish school advisors • Colibri as a subtle symbol of travel & care</p>
+    </div>
+
+    <div class="footer-right">
+      <img src="logo2.png" alt="mark" class="footer-mark" />
+      <div class="muted small">© Colibri Connection • All rights reserved</div>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Button Script -->
+<script>
+  document.getElementById("whatsappBtn2").addEventListener("click", function() {
+    // Número no formato internacional (ex: 55 + código + número)
+    let whatsappNumber = "5511999999999"; // substitua pelo seu número real
+
+    // Mensagem pré-definida (espaços codificados com %20)
+    let message = "Hello!%20I%20want%20to%20book%20a%20free%20consultation%20to%20study%20Spanish%20in%20Spain.";
+
+    // Abrir WhatsApp Web / App
+    window.open(`https://wa.me/${whatsappNumber}?text=${message}`, "_blank");
+  });
+</script>
+
+</body>
+</html>
